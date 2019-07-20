@@ -8,6 +8,7 @@ int main(void) {
 		scanf("%d",&a[i]);
 	int r,c=0;
 	scanf("%d",&r);
+	r=r%n;
 	for(i=0;i<r;i++)
 	{
 		c=a[n-1];
